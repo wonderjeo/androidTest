@@ -29,10 +29,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="40dp"
-        android:paddingRight="40dp"
         android:paddingTop="20dp"
+        android:paddingRight="40dp"
         android:paddingBottom="20dp"
-        android:text="@string/message_from_directory_p1" />
+        android:text="@string/message_from_directory_p1"
+        android:textSize="18sp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,7 +41,8 @@
         android:paddingRight="40dp"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
-        android:text="@string/message_from_directory_p2"/>
+        android:text="@string/message_from_directory_p2"
+        android:textSize="18sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,7 +50,8 @@
         android:paddingRight="40dp"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
-        android:text="@string/message_from_directory_p3"/>
+        android:text="@string/message_from_directory_p3"
+        android:textSize="18sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,27 +59,99 @@
         android:paddingRight="40dp"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
-        android:text="@string/message_from_directory_p4"/>
+        android:text="@string/message_from_directory_p4"
+        android:textSize="18sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:paddingLeft="40dp"
         android:text="Dr. K.P. Chow"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textSize="18sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:paddingLeft="40dp"
+        android:paddingBottom="20dp"
         android:text="Programme Director"
-        android:textStyle="bold"/>
-
-    <ListView
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/list_view">
-    </ListView>
+        android:orientation="vertical"
+        android:background="#aaaaaa">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingTop="20dp"
+            android:text="Programme Management Team"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wangcl"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:textStyle="bold"
+            android:text="Prof. Wang C.L."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="Deputy Programme Director"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yiusm"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:textStyle="bold"
+            android:text="Dr. Yiu S.M."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="Associate Programme Director
+Cyber Security Stream"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/schniedersd"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:textStyle="bold"
+            android:text="Dr. Schnieders D."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingBottom="20dp"
+            android:text="Associate Programme Director
+Multimedia Computing Stream"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
 
 
 

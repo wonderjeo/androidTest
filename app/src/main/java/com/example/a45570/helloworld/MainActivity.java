@@ -31,12 +31,5 @@ public class MainActivity extends AppCompatActivity {
         ImageView image3 = (ImageView) findViewById(R.id.chowkp);
         image3.setImageDrawable(circleDrawable);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-                MainActivity.this,   // Context上下文
-                android.R.layout.simple_list_item_1,  // 子项布局id
-                data);                                // 数据
-        ListView listView = (ListView) findViewById(R.id.list_view);
-        listView.setAdapter(adapter);
-
     }
 }
