@@ -4,4 +4,19 @@
     <string name="message_from_directory_p2">The Master of Science in Computer Science Programme is a comprehensive and challenging graduate programme with three specialisations and one general stream, namely Financial Computing Stream, Cyber Security Stream, Multimedia Computing Stream and General Computer Science Stream, to meet the needs of both industry and business in Asia, and to make the programme more unique among comparable programmes in the region.</string>
     <string name="message_from_directory_p3">As you can see from our curriculum, on one hand we have retained the nuts and bolts subjects to lay a strong foundation. But on the other hand, we updated and revised the curriculum continuously as we assess the career trends and needs of our students, and monitor rapid changes in technology developments. For example, hot topics like “fintech”, “blockchain” are included in some of our courses.</string>
     <string name="message_from_directory_p4">If you like the holistic approach of our teaching methods and curriculum, please consider enrolling in this established programme in a world-class university.</string>
+    <string name="programme_overview_p1">The MSc(CompSc) programme is a comprehensive postgraduate study programme provides advanced and in-depth learning in Computer Science.  The programme is credit unit based, with courses of both applied and fundamental nature.</string>
+    <string name="programme_overview_p2">Students can choose focussed streams of study or a comprehensive and diversified study in Computer Science, i.e. the General Stream.</string>
+    <string name="programme_overview_p3">Focussed streams of study represent a cohesive collection of related courses that provides both fundamental and in-depth exposure to students in a given ICT domain.  Students can extend and deepen their knowledge in the specialization streams in Cyber Security, Multimedia Computing and Financial Computing.</string>
+    <string name="CS">The Cyber Security Stream is a multidisciplinary area of study and professional activity concerned with state-of-the-art technology in cyber security. The curriculum covers different aspects of cyber security from different perspectives, including technical, organisational, human-oriented and legal.</string>
+    <string name="MC">The Multimedia Computing Stream focuses on multimedia computing, communications, analytics, visualisation and applications.
+
+Multimedia Computing encompasses media coding and processing, streaming-media middleware, media representations, real-time protocols, media analysis, and human-interaction and visualisation techniques.
+
+Students are encouraged to develop innovative ideas using the latest development in technology such as mobile devices and big-data analytics.</string>
+    <string name="FC">The Financial Computing Stream is the study of data and algorithms used in finance and the mathematics of computer programs that realise financial models or systems.
+
+Financial Computing emphasises practical numerical methods and focuses on techniques that are directly applicable to business and financial analysis.
+
+The emphasis will be in the computing aspect of the financial industry.</string>
+    <string name="GS">The General Stream covers a broad, comprehensive range of Computer Science subjects, including a wide range of courses from which students can choose from. It offers students the most flexibility to design their own study portfolio based on their career aspiration or requirements.</string>
 </resources>
